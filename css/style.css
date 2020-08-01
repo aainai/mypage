@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
+
+.va {
+  display: flex;
+  align-items: center;
+}
+
+.hero,
+.cta {
+  background-color: #5DAC81;
+}
+
+.cta {
+  height: 500px;
+  border-top: 10px solid #5DAC81;
+}
+
+footer {
+  color: #FFFFFB;
+  background: rgb(93, 172, 129) !important;
+}
+
+footer .license {
+  font-size: 0.7rem;
+}
+
+footer a {
+  color: #FFFFFB;
+}
+
+footer a:hover {
+  color: #F596AA;
+}
+
+.header-title {
+  color: #FFFFFB;
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: 'Quicksand', 'Rounded Mplus 1c', sans-serif;
+}
+
+.header-message strong {
+  color: #FFFFFB;
+  font-size: 0.9rem;
+  font-family: 'Rounded Mplus 1c', sans-serif;
+}
+
+.header-sns {
+  color: #FFFFFB;
+}
+
+.header-sns:hover {
+  color: #F596AA;
+}
+
+.footer-message {
+  color: #FFFFFB;
+  font-size: 1.0rem;
+  font-family: 'Quicksand', 'Rounded Mplus 1c', sans-serif;
+}
+
+.title {
+  color: #FFFFFB;
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Quicksand', 'Rounded Mplus 1c', sans-serif;
+  text-shadow: 1px 1px 1px #1C1C1C, 3px 3px 5px rgb(28, 28, 28);
+}
+
+.subtitle {
+  color: #FFFFFB;
+  font-size: 1.1rem;
+  font-family: 'Rounded Mplus 1c', sans-serif;
+  text-shadow: 1px 1px 1px #1C1C1C, 3px 3px 5px rgb(28, 28, 28);
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+#content-box-1 {
+  background: url(../images/towada-lake-01.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #5DAC81;
+}
+
+#content-box-1 hr {
+  background: #F596AA;
+}
+
+#content-box-2 {
+  background: url(../images/shiriyazaki-lighthouse-01.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #5DAC81;
+}
+
+#content-box-2 hr {
+  background: #F596AA;
+}
+
+#content-box-3 {
+  background: url(../images/misawa-dogrun-01.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #5DAC81;
+}
+
+#content-box-3 hr {
+  background: #F596AA;
+}
+
+#content-box-3 a {
+  color: #FFFFFB;
+}
+
+#content-box-3 a:hover{
+  color: #F596AA;
+}
