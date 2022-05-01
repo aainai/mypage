@@ -60,69 +60,84 @@ footer a:hover {
   font-family: 'Quicksand', 'Rounded Mplus 1c', sans-serif;
 }
 
+.content-background {
+  background-color: rgba(93, 172, 129, 0.5);
+}
+
 .title {
   color: #FFFFFB;
   font-weight: 800;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Quicksand', 'Rounded Mplus 1c', sans-serif;
-  text-shadow: 1px 1px 1px #1C1C1C, 3px 3px 5px rgb(28, 28, 28);
+  text-shadow: 1px 1px 1px #0C0C0C, 3px 3px 5px rgba(12, 12, 12, 0.3);
 }
 
 .subtitle {
-  color: #FFFFFB;
-  font-size: 1.1rem;
+  color: #FCFAF2;
+  font-size: 1.4rem;
   font-family: 'Rounded Mplus 1c', sans-serif;
-  text-shadow: 1px 1px 1px #1C1C1C, 3px 3px 5px rgb(28, 28, 28);
+  text-shadow: 1px 1px 1px #0C0C0C, 3px 3px 5px rgba(12, 12, 12, 0.2);
 }
 
 hr.content-divider {
-  max-width: 75px;
-  height: 5px;
+  background: #F596AA;
+  max-width: 125px;
+  height: 2px;
 }
 
 #content-box-1 {
-  background: url(../images/towada-lake-01.jpg) #5DAC81;
+  background: url(../images/towada-lake.jpg) #5DAC81;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 10px solid #5DAC81;
-}
-
-#content-box-1 hr {
-  background: #F596AA;
+  border-top: 5px solid #5DAC81;
 }
 
 #content-box-2 {
-  background: url(../images/shiriyazaki-lighthouse-01.jpg) #5DAC81;
+  background: url(../images/apple-farm.jpg) #5DAC81;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 10px solid #5DAC81;
-}
-
-#content-box-2 hr {
-  background: #F596AA;
+  border-top: 5px solid #5DAC81;
 }
 
 #content-box-3 {
-  background: url(../images/misawa-dogrun-01.jpg) #5DAC81;
+  background: url(../images/misawa-dogrun.jpg) #5DAC81;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 10px solid #5DAC81;
+  border-top: 5px solid #5DAC81;
 }
 
-#content-box-3 hr {
-  background: #F596AA;
-}
-
-#content-box-3 a {
+.link-type01 a {
   color: #FFFFFB;
 }
 
-#content-box-3 a:hover{
+.link-type01 a:hover{
   color: #F596AA;
+}
+
+@media(max-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  #content-box-1 {
+    background-attachment: scroll;
+  }
+
+  #content-box-2 {
+    background-attachment: scroll;
+  }
+
+  #content-box-3 {
+    background-attachment: scroll;
+  }
 }
