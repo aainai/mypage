@@ -64,6 +64,25 @@ footer a:hover {
   background-color: rgba(93, 172, 129, 0.5);
 }
 
+.content-title {
+  color: #FCFAF2;
+  font-size: 2.0rem;
+  font-family: 'Rounded Mplus 1c', sans-serif;
+}
+
+.content-subtitle {
+  color: #FCFAF2;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: 'Rounded Mplus 1c', sans-serif;
+}
+
+.content-text {
+  color: #FCFAF2;
+  font-size: 1.1rem;
+  font-family: 'Rounded Mplus 1c', sans-serif;
+}
+
 .title {
   color: #FFFFFB;
   font-weight: 800;
